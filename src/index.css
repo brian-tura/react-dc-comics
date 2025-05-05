@@ -16,12 +16,15 @@ img {
   margin: 0 auto;
 }
 
-ul {
+ul{
   list-style: none;
+}
+
+.navbar {
   display: flex;
 }
 
-li{
+.navbar li{
   margin-right: 25px;
 }
 
@@ -51,6 +54,7 @@ header {
 
 .big-container-img{
   background-color: rgb(52, 126, 236);
+  box-shadow: 0px 1px 5px -1px;
 }
 
 .content-goes-here {
@@ -62,6 +66,7 @@ header {
 
 .img-list{
   color: white;
+  display: flex;
 }
 
 .img-list img{
@@ -79,3 +84,16 @@ header {
   display: flex;
   align-items: center;
 }
+
+.first-footer{
+  background-image: url(./assets/img/footer-bg.jpg);
+  color: rgb(143, 143, 143);
+  font-size: 13px;
+  padding: 25px 0;
+}
+
+.first-footer h2{
+  color: white;
+  margin-bottom: 10px;
+}
+
