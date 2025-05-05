@@ -94,7 +94,7 @@ footer {
 }
 
 .first-footer {
-  color: rgb(143, 143, 143);
+  
   font-size: 13px;
   padding: 25px 0;
   overflow: hidden;
@@ -112,6 +112,11 @@ footer {
 
 .first-footer li {
   margin: 4px 0;
+}
+
+.first-footer a{
+  text-decoration: none;
+  color: rgb(143, 143, 143);
 }
 
 .content {
