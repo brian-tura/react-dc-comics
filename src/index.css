@@ -16,7 +16,7 @@ img {
   margin: 0 auto;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
@@ -24,11 +24,11 @@ ul{
   display: flex;
 }
 
-.navbar li{
+.navbar li {
   margin-right: 25px;
 }
 
-.navbar li a{
+.navbar li a {
   text-decoration: none;
   color: black;
   padding: 60px 0;
@@ -48,11 +48,11 @@ header {
   padding: 20px 0;
 }
 
-.big-container{
+.big-container {
   background-color: rgb(36, 36, 36);
 }
 
-.big-container-img{
+.big-container-img {
   background-color: rgb(52, 126, 236);
   box-shadow: 0px 1px 5px -1px;
 }
@@ -64,17 +64,18 @@ header {
   padding: 40px 0;
 }
 
-.img-list{
+.img-list {
   color: white;
   display: flex;
+  padding: 0 20px;
 }
 
-.img-list img{
+.img-list img {
   height: 40%;
   margin-right: 10px;
 }
 
-.img-list li{
+.img-list li {
   font-weight: 400;
   font-size: small;
   width: 20%;
@@ -85,15 +86,43 @@ header {
   align-items: center;
 }
 
-.first-footer{
+footer {
   background-image: url(./assets/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.first-footer {
   color: rgb(143, 143, 143);
   font-size: 13px;
   padding: 25px 0;
+
 }
 
-.first-footer h2{
+.first-footer h2 {
   color: white;
   margin-bottom: 10px;
 }
 
+.first-footer ul {
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+
+.first-footer li {
+  margin: 4px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-footer img {
+  margin: -50px 0;
+}
+
+.d-flex {
+  display: flex;
+}
