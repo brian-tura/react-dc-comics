@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>
+    <header className='container'>
         <figure>
             <img src="../src/assets/img/dc-logo.png" alt="dc-logo" />
         </figure>

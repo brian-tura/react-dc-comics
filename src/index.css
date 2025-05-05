@@ -1,16 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-.container{
+
+.container {
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -20,23 +21,35 @@ ul {
   display: flex;
 }
 
-li{
+li {
   margin-right: 25px;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+a:hover {
   color: rgb(46, 46, 236);
 }
 
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-weight: 500;
   font-size: 15px;
+  padding: 20px 0;
+}
+
+main {
+  background-color: rgb(36, 36, 36);
+}
+
+.content-goes-here {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 40px 0;
 }
