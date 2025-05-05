@@ -12,15 +12,13 @@ const Main = () => {
             </div>
             <div className='big-container-img'>
                 <div className='container'>
-                    <div className='content-goes-here'>
-                        <ul className='img-list'>
-                            <li><img src="../src/assets/img/buy-comics-digital-comics.png" alt="" /> DIGITAL COMICS</li>
-                            <li><img src="../src/assets/img/buy-comics-merchandise.png" alt="" /> DC MERCHANDISE</li>
-                            <li><img src="../src/assets/img/buy-comics-subscriptions.png" alt="" /> SUBSCRIPTION</li>
-                            <li><img src="../src/assets/img/buy-comics-shop-locator.png" alt="" /> COMICS SHOP LOCATOR</li>
-                            <li><img src="../src/assets/img/buy-dc-power-visa.svg" alt="" /> CD POWER VISA</li>
-                        </ul>
-                    </div>
+                    <ul className='img-list'>
+                        <li><img src="../src/assets/img/buy-comics-digital-comics.png" alt="" /> DIGITAL COMICS</li>
+                        <li><img src="../src/assets/img/buy-comics-merchandise.png" alt="" /> DC MERCHANDISE</li>
+                        <li><img src="../src/assets/img/buy-comics-subscriptions.png" alt="" /> SUBSCRIPTION</li>
+                        <li><img src="../src/assets/img/buy-comics-shop-locator.png" alt="" /> COMICS SHOP LOCATOR</li>
+                        <li><img src="../src/assets/img/buy-dc-power-visa.svg" alt="" /> CD POWER VISA</li>
+                    </ul>
                 </div>
             </div>
         </main>

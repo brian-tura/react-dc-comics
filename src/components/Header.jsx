@@ -7,7 +7,7 @@ const Header = () => {
             <img src="../src/assets/img/dc-logo.png" alt="dc-logo" />
         </figure>
         <nav>
-            <ul>
+            <ul className='navbar'>
                 <li>
                     <a href="#">CHARACTERS</a>
                 </li>

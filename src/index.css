@@ -21,19 +21,19 @@ ul {
   display: flex;
 }
 
-li {
+li{
   margin-right: 25px;
-  display: flex;
-  align-items: center;
 }
 
-a {
+.navbar li a{
   text-decoration: none;
   color: black;
+  padding: 60px 0;
 }
 
-a:hover {
+.navbar li a:hover {
   color: rgb(46, 46, 236);
+  border-bottom: 5px solid blue;
 }
 
 header {
@@ -60,6 +60,10 @@ header {
   padding: 40px 0;
 }
 
+.img-list{
+  color: white;
+}
+
 .img-list img{
   height: 40%;
   margin-right: 10px;
@@ -69,4 +73,9 @@ header {
   font-weight: 400;
   font-size: small;
   width: 20%;
+}
+
+.img-list li {
+  display: flex;
+  align-items: center;
 }
