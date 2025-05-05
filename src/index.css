@@ -90,7 +90,7 @@ footer {
   background-image: url(./assets/img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  
+
 }
 
 .first-footer {
@@ -127,27 +127,42 @@ footer {
   display: flex;
 }
 
-.second-footer{
+.second-footer {
   background-color: rgb(61, 61, 61);
-  
+
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
 }
 
-.bottom-footer{
+.links ul {
+  display: flex;
+  margin-left: 20px;
+}
+
+.links li {
+  margin: 0 10px;
+}
+
+.bottom-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 40px 0;
 }
 
-.bottom-footer button{
+.bottom-footer button {
   background-color: rgba(0, 0, 255, 0);
   color: white;
   border: 2px solid rgb(52, 113, 245);
   padding: 12px;
 }
 
-.bottom-footer
+.bottom-footer a {
+  text-decoration: none;
+  color: rgb(52, 113, 245);
+  font-weight: 700;
+  font-size: 17px;
+}
