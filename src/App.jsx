@@ -10,8 +10,8 @@ function App() {
       <Main />
       <Footer />
     </>
-    
-  
+
+
   )
 }
 
