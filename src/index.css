@@ -23,6 +23,8 @@ ul {
 
 li {
   margin-right: 25px;
+  display: flex;
+  align-items: center;
 }
 
 a {
@@ -43,8 +45,12 @@ header {
   padding: 20px 0;
 }
 
-main {
+.big-container{
   background-color: rgb(36, 36, 36);
+}
+
+.big-container-img{
+  background-color: rgb(52, 126, 236);
 }
 
 .content-goes-here {
@@ -52,4 +58,15 @@ main {
   font-weight: 700;
   font-size: 20px;
   padding: 40px 0;
+}
+
+.img-list img{
+  height: 40%;
+  margin-right: 10px;
+}
+
+.img-list li{
+  font-weight: 400;
+  font-size: small;
+  width: 20%;
 }
