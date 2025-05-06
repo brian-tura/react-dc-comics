@@ -4,6 +4,9 @@ import ListComics from './ListComics'
 const Main = () => {
     return (
         <main>
+            <div className='jumbotron'>
+                <h4>current series</h4>
+            </div>
             <div className='big-container'>
                 <div className='container'>
                     <div className='content-goes-here'>
