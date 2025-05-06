@@ -171,3 +171,28 @@ footer {
   font-weight: 700;
   font-size: 17px;
 }
+
+.comic-card{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.comic-card img{
+  height: 200px;
+  width: 63%;
+  object-fit: cover;
+  margin-bottom: -70px;
+  }
+
+.comic-card-series{
+  background-color: rgb(36, 36, 36);
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.comic-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

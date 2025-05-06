@@ -1,4 +1,5 @@
 import React from 'react'
+import ListComics from './ListComics'
 
 const Main = () => {
     return (
@@ -6,7 +7,9 @@ const Main = () => {
             <div className='big-container'>
                 <div className='container'>
                     <div className='content-goes-here'>
-                        <h2>Content goes here</h2>
+                        <div className='comic-list'>
+                            <ListComics />
+                        </div>
                     </div>
                 </div>
             </div>
