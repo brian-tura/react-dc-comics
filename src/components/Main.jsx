@@ -5,13 +5,16 @@ const Main = () => {
     return (
         <main>
             <div className='jumbotron'>
-                <h4>current series</h4>
+                <h4>CURRENT SERIES</h4>
             </div>
             <div className='big-container'>
                 <div className='container'>
                     <div className='content-goes-here'>
                         <div className='comic-list'>
                             <ListComics />
+                        </div>
+                        <div className='load-more-button'>
+                            <button>LOAD MORE</button>
                         </div>
                     </div>
                 </div>
